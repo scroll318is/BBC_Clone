@@ -165,6 +165,7 @@
         #headlineImg {
             float: left;
             width: 55%;
+            margin: 0 15px 0 0;
         }
 
         #news-left {
@@ -176,7 +177,7 @@
             float: left;
             width: 250px;
             left: 15px;
-            padding: 0 20px 0 20px;
+            padding: 0 10px 0 0;
         }
 
         #news-info a {
@@ -191,6 +192,10 @@
             margin: 0;
             color: #616161;
             line-height: 19px;
+        }
+
+        .text {
+            width: 100%;
         }
 
         .live {
@@ -248,3 +253,109 @@
             background-color: none;
             padding-left: 30px;
         }
+
+        #bottom-bar {
+            width: 100%;
+            min-height: 100px;
+            background-color: #7A0000;
+            position: fixed;
+            bottom: 10px;
+        }
+
+        #bottom-bar h1 {
+            font-size: 1.5em;
+            color: white;
+        }
+
+        #bottom-bar-container {
+            min-height: 100px;
+            border-bottom: 1px solid gray;
+            margin-bottom: 10px;
+        }
+
+        #bottom-bar-container ul {
+            float: left;
+            padding-left: 0;
+            padding-right: 80px;
+        }
+
+        #bottom-bar-container li {
+            list-style: none;
+        }
+
+        #bottom-bar a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .bottom-bar-ul {
+            border-left: 1px solid gray;
+            padding-left: 20px !important;
+        }
+
+        #bottom-bar p {
+            color: white;
+            font-size: 0.6em;
+        }
+
+        .bottomb-a {
+            color: white !important;
+            font-size: 1.3em !important;
+            padding: 0 10px 0 0;
+            margin: 0;
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
