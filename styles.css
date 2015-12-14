@@ -1,0 +1,250 @@
+     body {
+            margin:0;
+            font-family: Arial,Helvetica,freesans,sans-serif;
+        }
+
+        #toolbar {
+            background-color: #7A0000;
+            width: 100%;
+            height: 40px;
+            color: white;
+        }
+
+        .fixedwidth {
+            width: 1050px;
+            margin: 0 auto;
+        }
+
+        #logodiv {
+            padding: 7px 10px 3px 0;
+            float: left;
+            border-right: 1px solid #990000;
+        }
+
+        #logoimg {
+            height: 26px;
+            width: 84px;
+            padding:0;
+        }
+
+        #signin {
+            font-weight: bold;
+            font-size: 0.9em;
+            padding: 8px 80px 10px 20px;
+            float: left;
+            border-right: 1px solid #990000;
+        }
+
+        #signin img {
+            position: relative;
+            top:3px;
+        }
+
+        #topmenudiv {
+            float: left;
+        }
+
+        #topmenudiv ul {
+            margin:0;
+            padding:0;
+        }
+
+        #topmenudiv li {
+            list-style: none;
+            font-weight: bold;
+            font-size: 0.9em;
+            border-right: 1px solid #990000;
+            height: 100%;
+            float: left;
+            padding: 11px 20px 11px 20px;
+        }
+
+        #searchbox {
+            padding: 7px 0px 0px 10px;
+            float: left;
+        }
+
+        #searchbox input {
+            height: 20px;
+            width: 162px;
+            padding: 0px 0px 0px 6px;
+            color: #333;
+            font-weight: 700;
+            background-image: url(http://static.bbci.co.uk/frameworks/barlesque/2.93.13/orb/4/img/orb-search-dark.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+
+        .break {
+            clear: both;
+        }
+
+        #newsBar {
+            float: left;
+            background-color: #96050B;
+            width: 100%;
+            height: 90px;
+        }
+
+        #newsBar p {
+            margin: 0;
+            padding: 0;
+            padding-top: 7px;
+            float: left;
+        }
+
+        #newsHeader {
+            font-size: 3em;
+        }
+
+        #uk {
+            font-size: 0.7em;
+        }
+
+        #rss {
+            float: right;
+            margin-top: 30px;
+        }
+
+        #rssimg {
+            width: 15px;
+            height: 15px;
+        }
+
+        #topicmenu {
+            padding-top: 6px;
+        }
+
+        #topicmenu ul {
+            height: 100%;
+            background-color: #3E0C0D;
+            padding:0px 0 0 6px;
+            margin: 0;
+            height: 22px
+        }
+
+        #topicmenu li {
+            height: 19px;
+            list-style: none;
+            font-size: 0.8em;
+            border-right: 1px solid #990000;
+            padding: 3px 6px 0 6px;
+            float: left;
+        }
+
+        #topicmenu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .selected {
+            background-color: #EDEDED;
+            color: #666666;
+            height: 18px !important;
+            position: relative;
+            top: 0px;
+            padding-top: 4px !important;
+        }
+
+        #content {
+            width: 100%;
+            color: #535353;
+            font-size: 0.75em;
+        }
+
+        #date {
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #1f3f82;
+            font-size: 2.5em;
+
+        }
+
+        #headlineImg {
+            float: left;
+            width: 55%;
+        }
+
+        #news-left {
+            float: left;
+            width: 727px;
+        }
+
+        #news-info {
+            float: left;
+            width: 250px;
+            left: 15px;
+            padding: 0 20px 0 20px;
+        }
+
+        #news-info a {
+            color: #1F4F82;
+        }
+
+        #news-info a:hover {
+            text-decoration: underline;
+        }
+
+        .news-info p {
+            margin: 0;
+            color: #616161;
+            line-height: 19px;
+        }
+
+        .live {
+              background-color:#F42924;
+              color:#FFF;
+              padding: 0 3px 0 3px;
+              margin-right:4px;
+              font-size:14px;
+              position:relative;
+              top:-3px;
+        }
+
+        .video {
+            background-image: url("images/triangle.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 15px;
+            padding-left: 20px;
+        }
+
+        .links {
+            line-height: 1.5em;
+        }
+
+        .sound {
+            background-image: url("images/sound.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 15px;
+            padding-left: 20px;
+        }
+
+        #watch-listen {
+            margin-top:25px;
+            background-color:#EEEEEE;
+            float:right;
+            width: 300px;
+        }
+
+        h2 {
+            color: #505050;
+            margin: 10px 0 10px 10px;
+            font-size: 2em;
+        }
+
+        #bbcnewsimg {
+            width: 100%;
+        }
+
+        .live1 {
+            background-image: url("images/live.jpg");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 25px;
+            background-color: none;
+            padding-left: 30px;
+        }
